@@ -1,0 +1,671 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 280px;
+    }
+
+
+    .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - 30px);
+    }
+
+
+    .swiper-button-next,
+    .swiper-button-prev
+    {
+        width: 60px;
+        height: 60px;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    .filter .submit_btn
+    {
+        width: 100%;
+    }
+
+
+    .filter .reset_btn
+    {
+        width: 100%;
+        margin-top: 15px;
+
+        text-align: center;
+
+        order: 2;
+    }
+
+
+
+    /*---------------
+        Page head
+    ---------------*/
+    .page_head.mob_hide
+    {
+        display: none;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    aside .page_title
+    {
+        margin-bottom: 20px;
+        padding-bottom: 23px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .image,
+    .text_block .images
+    {
+        width: calc(100% + 410px);
+        margin: 50px -205px;
+    }
+
+
+
+    /*-----------------
+        Collections
+    -----------------*/
+    .collections:not(.block)
+    {
+        margin-bottom: 10px;
+    }
+
+
+    .collections .row
+    {
+        margin-bottom: -10px;
+        margin-left: -10px;
+    }
+
+    .collections .row > *
+    {
+        width: calc(50% - 10px);
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+
+    .collections .collection .info
+    {
+        width: 100%;
+        padding: 40px;
+    }
+
+
+
+    /*---------------
+        Discounts
+    ---------------*/
+    .discounts .data
+    {
+        width: 280px;
+    }
+
+
+    .discounts .col
+    {
+        width: 320px;
+    }
+
+    .discounts .col.big
+    {
+        width: calc(100% - 660px);
+    }
+
+
+    .discounts .product + .product
+    {
+        margin-top: 10px;
+    }
+
+
+    .discounts .product .thumb
+    {
+        height: 224px;
+    }
+
+    .discounts .product .thumb.big
+    {
+        height: 360px;
+    }
+
+    .discounts .col.big .product .thumb
+    {
+        height: 594px;
+    }
+
+
+    .discounts .data .title
+    {
+        font-size: 40px;
+        line-height: 100%;
+    }
+
+    .discounts .data .percents
+    {
+        font-size: 100px;
+        line-height: 100%;
+
+        margin-top: 20px;
+    }
+
+
+    .discounts .data .link
+    {
+        margin-top: 40px;
+    }
+
+    .discounts .data .link a
+    {
+        padding: 16px 40px;
+    }
+
+
+    .discounts .data .duration
+    {
+        line-height: 31px;
+
+        margin-top: 40px;
+    }
+
+
+    .discounts .product .discount
+    {
+        font-size: 24px;
+        line-height: 30px;
+
+        top: 10px;
+        right: 10px;
+
+        opacity: 1;
+    }
+
+
+
+    /*-----------------
+        Info blocks
+    -----------------*/
+    .info_blocks .tabs .btn + .btn
+    {
+        margin-left: 120px;
+    }
+
+
+
+    /*---------------
+        Gift info
+    ---------------*/
+    .gift_info .bg1
+    {
+        margin-left: -580px;
+    }
+
+    .gift_info .bg2
+    {
+        margin-right: -580px;
+    }
+
+
+
+    /*------------------------
+        Every new discount
+    ------------------------*/
+    .every_new_discount .text_block,
+    .every_new_discount .percents
+    {
+        width: 340px;
+    }
+
+
+    .every_new_discount .img
+    {
+        width: 400px;
+        height: auto;
+    }
+
+
+
+    /*----------
+        Club
+    ----------*/
+    .club .data
+    {
+        width: calc(100% - 604px);
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .accordion
+    {
+        width: calc(100% - 380px);
+    }
+
+
+    .FAQ .col_right
+    {
+        width: 340px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .row
+    {
+        margin-bottom: -10px;
+        margin-left: -10px;
+    }
+
+    .contacts_info .row > *
+    {
+        width: calc(50% - 10px);
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+
+    .contacts_info .item
+    {
+        padding: 24px 28px;
+    }
+
+
+
+    /*--------------
+        Products
+    --------------*/
+    .products .row
+    {
+        margin-bottom: -24px;
+        margin-left: -10px;
+    }
+
+    .products .row > *
+    {
+        width: calc(25% - 10px);
+        margin-bottom: 24px;
+        margin-left: 10px;
+    }
+
+    .content .products .row > *
+    {
+        width: calc(33.333% - 10px);
+    }
+
+    .products .row.small > *
+    {
+        width: calc(20% - 10px);
+    }
+
+
+    .products .row > *.content_banner
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .head
+    {
+        padding: 80px;
+    }
+
+
+    .about_info .head .data
+    {
+        padding: 40px;
+    }
+
+
+    .about_info .information .data
+    {
+        width: calc(100% - 525px);
+    }
+
+
+    .text_block blockquote
+    {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+
+    .about_info .information2:before
+    {
+        left: -30px;
+
+        width: calc(100% + 60px);
+    }
+
+
+
+    /*------------
+        Stocks
+    ------------*/
+    .stocks .head
+    {
+        height: 550px;
+    }
+
+
+    .stocks .row
+    {
+        margin-bottom: -40px;
+        margin-left: -100px;
+    }
+
+    .stocks .row > *
+    {
+        width: calc(50% - 100px);
+        margin-bottom: 40px;
+        margin-left: 100px;
+    }
+
+
+
+    /*----------------------
+        To corp. clients
+    ----------------------*/
+    .to_corp_clients .head
+    {
+        margin-bottom: 60px;
+    }
+
+
+    .to_corp_clients .head .image
+    {
+        height: 550px;
+    }
+
+
+    .to_corp_clients .head .title
+    {
+        font-size: 30px;
+        line-height: 34px;
+
+        width: 592px;
+    }
+
+
+    .to_corp_clients .information .text_block
+    {
+        font-size: 18px;
+
+        width: calc(100% - 320px);
+    }
+
+
+    .to_corp_clients .pluses .item
+    {
+        font-size: 20px;
+    }
+
+
+    .to_corp_clients .gallery .wheelSlider-container
+    {
+        width: 680px;
+    }
+
+
+    .to_corp_clients .gallery .wheelSlider-container .slide.prev
+    {
+        margin-left: 116px;
+    }
+
+    .to_corp_clients .gallery .wheelSlider-container .slide.next
+    {
+        margin-left: -116px;
+    }
+
+
+    .to_corp_clients .gallery .wheelSlider-container .wheelSlider-arrow[data-action='prev']
+    {
+        margin-left: -376px;
+    }
+
+    .to_corp_clients .gallery .wheelSlider-container .wheelSlider-arrow[data-action='next']
+    {
+        margin-right: -376px;
+    }
+
+
+    .to_corp_clients .goals .item
+    {
+        padding: 24px;
+    }
+
+
+    .to_corp_clients .action
+    {
+        padding: 0;
+    }
+
+
+    .to_corp_clients .action .desc
+    {
+        width: calc(100% - 600px);
+    }
+
+
+    .to_corp_clients .action .image
+    {
+        width: 500px;
+        height: 544px;
+    }
+
+
+    .to_corp_clients .action .contacts
+    {
+        display: none;
+    }
+
+
+
+    /*--------------------
+        Our production
+    --------------------*/
+    .our_production .head .text_block
+    {
+        padding: 40px;
+    }
+
+
+    .our_production .steps .step .number
+    {
+        font-size: 60px;
+        line-height: 92px;
+
+        width: 92px;
+        height: 92px;
+    }
+
+
+
+    /*------------------------
+        Vintage techniques
+    ------------------------*/
+    .vintage_techniques .why
+    {
+        padding: 48px;
+    }
+
+
+    .vintage_techniques .why .row
+    {
+        margin-left: -60px;
+    }
+
+    .vintage_techniques .why .row > *
+    {
+        width: calc(33.333% - 60px);
+        margin-left: 60px;
+    }
+
+
+
+    /*---------------------
+        Genuine leather
+    ---------------------*/
+    .genuine_leather .why .row > *
+    {
+        width: 260px;
+    }
+
+    .genuine_leather .why .row > *.big,
+    .genuine_leather .why .text_block
+    {
+        width: calc(100% - 560px);
+    }
+
+
+    .genuine_leather .steps .step .number
+    {
+        font-size: 60px;
+        line-height: 92px;
+
+        width: 92px;
+        height: 92px;
+    }
+
+
+
+    /*-------------------
+        Order success
+    -------------------*/
+    .order_success .data .col
+    {
+        width: 260px;
+    }
+
+    .order_success .data .col.big
+    {
+        width: 480px;
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info .col_main
+    {
+        width: calc(100% - 420px);
+    }
+
+
+    .cart_info .col_right
+    {
+        width: 380px;
+    }
+
+
+    .cart_info .cart_total
+    {
+        padding-left: 40px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images
+    {
+        width: calc(100% - 510px);
+    }
+
+
+    .product_info .images .thumb
+    {
+        height: 440px;
+    }
+
+    .product_info .images .small .thumb
+    {
+        height: 280px;
+    }
+
+
+    .product_info .data
+    {
+        width: 480px;
+    }
+
+
+    .product_info .buy .gift .info,
+    .product_info .buy .gift .result
+    {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+
+
+    /*------------------
+        Get discount
+    ------------------*/
+    .get_discount .img1
+    {
+        margin-left: -624px;
+    }
+
+    .get_discount .img2
+    {
+        margin-right: -624px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #pickup_point_modal .data
+    {
+        width: 400px;
+        padding: 28px;
+    }
+
+
+    #pickup_point_modal .search .input
+    {
+        height: 48px;
+    }
+
+
+    #pickup_point_modal .list
+    {
+        max-height: 474px;
+        margin-top: 24px;
+        padding-right: 20px;
+    }
+
+
+    #pickup_point_modal #map
+    {
+        width: calc(100% - 400px);
+    }
+}

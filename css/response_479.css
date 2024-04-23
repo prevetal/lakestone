@@ -1,0 +1,39 @@
+@media (max-width: 479px)
+{
+    /*--------------
+        Fancybox
+    --------------*/
+    .fancybox__content > .carousel__button.is-close
+    {
+        top: 15px;
+        right: 15px;
+    }
+
+
+    /*------------------
+        Get discount
+    ------------------*/
+    .get_discount .step .plus
+    {
+        font-size: 40px;
+
+        margin: 5px 15px 0;
+    }
+
+
+    .get_discount .step .product:nth-child(3)
+    {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #pickup_point_modal .data
+    {
+        padding: 30px 15px;
+    }
+}

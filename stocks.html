@@ -1,0 +1,1003 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+		<!-- Адаптирование страницы для мобильных устройств -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- Запрет распознования номера телефона -->
+		<meta name="format-detection" content="telephone=no">
+		<meta name="SKYPE_TOOLBAR" content ="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+
+		<!-- Заголовок страницы -->
+		<title>Заголовок страницы</title>
+
+		<!-- Данное значение часто используют(использовали) поисковые системы -->
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+
+		<!-- Изменение цвета панели моб. браузера -->
+		<meta name="msapplication-TileColor" content="#000">
+		<meta name="theme-color" content="#000">
+
+		<!-- Подключение шрифтов с гугла -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Source+Serif+4:ital,opsz,wght@0,8..60,200;0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;0,8..60,700;0,8..60,800;0,8..60,900;1,8..60,200;1,8..60,300;1,8..60,400;1,8..60,500;1,8..60,600;1,8..60,700;1,8..60,800;1,8..60,900&display=swap" rel="stylesheet">
+
+		<!-- Подключение файлов стилей -->
+		<link rel="stylesheet" href="css/swiper-bundle.min.css" async>
+		<link rel="stylesheet" href="css/swiper.css" async>
+		<link rel="stylesheet" href="css/fancybox.css" async>
+		<link rel="stylesheet" href="css/wheelSlider.css" async>
+		<link rel="stylesheet" href="css/ion.rangeSlider.css" async>
+		<link rel="stylesheet" href="css/styles.css" async>
+
+		<link rel="stylesheet" href="css/response_1899.css" media="print, (max-width: 1899px)" async>
+		<link rel="stylesheet" href="css/response_1439.css" media="print, (max-width: 1439px)" async>
+		<link rel="stylesheet" href="css/response_1279.css" media="print, (max-width: 1279px)" async>
+		<link rel="stylesheet" href="css/response_1023.css" media="print, (max-width: 1023px)" async>
+		<link rel="stylesheet" href="css/response_767.css" media="print, (max-width: 767px)" async>
+		<link rel="stylesheet" href="css/response_479.css" media="(max-width: 479px)" async>
+	</head>
+
+	<body>
+		<div class="wrap">
+			<div class="main">
+				<div class="top_banner">
+					<button class="close_btn">
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+					</button>
+
+					<div class="cont">
+						Как получить скидку? <a href="/">Узнать</a>
+					</div>
+				</div>
+
+				<header>
+					<div class="cont row">
+						<a href="/" class="logo">
+							<img src="images/logo.png" alt="">
+						</a>
+
+						<button class="mob_menu_btn">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_menu"></use></svg>
+						</button>
+
+						<nav class="menu row">
+							<div class="menu_item">
+								<a href="/" class="sub_link">О нас</a>
+
+								<div class="sub_menu">
+									<div><a href="/">О компании</a></div>
+									<div><a href="/">Производство</a></div>
+									<div><a href="/">Корпоративным клиентам</a></div>
+									<div><a href="/">Блог</a></div>
+								</div>
+							</div>
+
+							<div class="menu_item">
+								<a href="/">Доставка и оплата</a>
+							</div>
+
+							<div class="menu_item">
+								<a href="/" class="red">Акции</a>
+							</div>
+
+							<div class="menu_item">
+								<a href="/">Контакты</a>
+							</div>
+						</nav>
+
+						<div class="location">
+							<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+
+							<div class="city">Москва</div>
+
+							<button class="count modal_btn" data-modal="city_modal">100 пунктов выдачи</button>
+						</div>
+
+						<div class="links">
+							<div class="search">
+								<button class="btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+								</button>
+							</div>
+
+							<div class="favorites">
+								<a href="/" class="btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+								</a>
+							</div>
+
+							<div class="cart">
+								<a href="/" class="btn">
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_cart"></use></svg>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="cont">
+						<div class="categories row">
+							<div>
+								<a href="/" class="sub_link">Мужские сумки</a>
+
+								<div class="sub_categories">
+									<div class="cont">
+										<div class="row">
+											<div class="item">
+												<div class="title">Деловые сумки</div>
+
+												<div class="items">
+													<div><a href="/">Мужские деловые сумки</a></div>
+													<div><a href="/">Сумки для документов</a></div>
+													<div><a href="/">Вертикальные деловые сумки</a></div>
+													<div><a href="/">Мужские сумки А4</a></div>
+													<div><a href="/">Сумки для ноутбуков</a></div>
+													<div><a href="/">С двумя отделениями</a></div>
+													<div><a href="/">Сумки-портфели</a></div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="title">МУЖСКИЕ СУМКИ ЧЕРЕЗ ПЛЕЧО</div>
+
+												<div class="items">
+													<div><a href="/">Сумки через плечо</a></div>
+													<div><a href="/">Сумки-планшеты</a></div>
+													<div><a href="/">Мессенджеры</a></div>
+													<div><a href="/">Под А4</a></div>
+													<div><a href="/">Маленькие</a></div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="title">МУЖСКИЕ портфели</div>
+
+												<div class="items">
+													<div><a href="/">Портфели мужские</a></div>
+													<div><a href="/">Портфели под А4</a></div>
+													<div><a href="/">Вертикальные</a></div>
+													<div><a href="/">Для документов</a></div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="title">ПАПКИ ДЛЯ ДОКУМЕНТОВ</div>
+
+												<div class="items">
+													<div><a href="/">Папки для документов</a></div>
+													<div><a href="/">Папки А4</a></div>
+													<div><a href="/">Папки на молнии</a></div>
+												</div>
+											</div>
+
+											<div class="item">
+												<div class="title">БАРСЕТКИ И КЛАТЧИ</div>
+
+												<div class="items">
+													<div><a href="/">Кожаные барсетки</a></div>
+													<div><a href="/">Мужские клатчи</a></div>
+													<div><a href="/">Мужские поясные сумки</a></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div><a href="/">Женские сумки</a></div>
+
+							<div><a href="/">рюкзаки</a></div>
+
+							<div><a href="/">дорожно-спортивные сумки</a></div>
+
+							<div><a href="/">Аксессуары</a></div>
+
+							<div><a href="/" class="red">Распродажа</a></div>
+						</div>
+					</div>
+				</header>
+
+
+				<section class="mob_menu">
+					<button class="close_btn">
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+					</button>
+
+					<div class="scroll">
+						<div class="cont">
+							<div class="title">Меню</div>
+
+							<div class="links">
+								<div>
+									<a href="#" class="sub_link">
+										<span>Мужские сумки</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub">
+										<div><a href="/">Деловые сумки</a></div>
+										<div><a href="/">Мужские сумки через плечо</a></div>
+										<div><a href="/">Мужские портфели</a></div>
+										<div><a href="/">Папки для документов</a></div>
+										<div><a href="/">Барсетки и клатчи</a></div>
+									</div>
+								</div>
+
+								<div>
+									<a href="#" class="sub_link">
+										<span>Женские сумки</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub">
+										<div><a href="/">Деловые сумки</a></div>
+										<div><a href="/">Мужские сумки через плечо</a></div>
+										<div><a href="/">Мужские портфели</a></div>
+										<div><a href="/">Папки для документов</a></div>
+										<div><a href="/">Барсетки и клатчи</a></div>
+									</div>
+								</div>
+
+								<div>
+									<a href="#" class="sub_link">
+										<span>Рюкзаки</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub">
+										<div><a href="/">Деловые сумки</a></div>
+										<div><a href="/">Мужские сумки через плечо</a></div>
+										<div><a href="/">Мужские портфели</a></div>
+										<div><a href="/">Папки для документов</a></div>
+										<div><a href="/">Барсетки и клатчи</a></div>
+									</div>
+								</div>
+
+								<div>
+									<a href="#" class="sub_link">
+										<span>Дорожно-спортивные сумки</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub">
+										<div><a href="/">Деловые сумки</a></div>
+										<div><a href="/">Мужские сумки через плечо</a></div>
+										<div><a href="/">Мужские портфели</a></div>
+										<div><a href="/">Папки для документов</a></div>
+										<div><a href="/">Барсетки и клатчи</a></div>
+									</div>
+								</div>
+
+								<div>
+									<a href="#" class="sub_link">
+										<span>Аксессуары</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub">
+										<div><a href="/">Деловые сумки</a></div>
+										<div><a href="/">Мужские сумки через плечо</a></div>
+										<div><a href="/">Мужские портфели</a></div>
+										<div><a href="/">Папки для документов</a></div>
+										<div><a href="/">Барсетки и клатчи</a></div>
+									</div>
+								</div>
+
+								<div><a href="/" class="red">Распродажа</a></div>
+							</div>
+
+							<div class="links">
+								<div>
+									<a href="#" class="sub_link">
+										<span>О нас</span>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+									</a>
+
+									<div class="sub">
+										<div><a href="/">Деловые сумки</a></div>
+										<div><a href="/">Мужские сумки через плечо</a></div>
+										<div><a href="/">Мужские портфели</a></div>
+										<div><a href="/">Папки для документов</a></div>
+										<div><a href="/">Барсетки и клатчи</a></div>
+									</div>
+								</div>
+
+								<div><a href="/">Доставка и оплата</a></div>
+								<div><a href="/">Контакты</a></div>
+							</div>
+
+							<div class="search">
+								<form action="">
+									<div class="field">
+										<input type="text" name="" value="" class="input" placeholder="Поиск">
+									</div>
+
+									<button type="submit" class="submit_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+									</button>
+								</form>
+							</div>
+
+							<div class="location">
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_location"></use></svg>
+
+								<div>
+									<div class="city">Москва</div>
+									<div class="count">100 пунктов выдачи</div>
+								</div>
+
+								<button class="change_btn modal_btn" data-modal="city_modal">Изменить</button>
+							</div>
+
+							<div class="contacts">
+								<div class="phone">
+									<a href="tel:88002227941">8 (800) 222-79-41</a>
+								</div>
+
+								<div class="time">9:00-21:00</div>
+
+								<div class="email">
+									<a href="mailto:info@lakestone.ru">info@lakestone.ru</a>
+								</div>
+							</div>
+
+							<div class="discount">
+								<div class="title">Скидка</div>
+								<div class="desc">за подписку на рассылку</div>
+
+								<div class="val">10%</div>
+
+								<div class="subscribe">
+									<form action="">
+										<input type="email" name="" value="" class="input" placeholder="Ваш E-mail">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_send"></use></svg>
+										</button>
+									</form>
+
+									<div class="agree">Нажимая на кнопку “Отправить”, Вы даете согласие на обработку <a href="/" target="_blank">персональных данных</a></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section>
+
+
+				<section class="page_head">
+					<div class="cont">
+						<div class="breadcrumbs">
+							<a href="/">Главная</a> <span class="sep">/</span>
+							<span class="current">Акции</span>
+						</div>
+
+						<h1 class="page_title">Акции</h1>
+					</div>
+				</section>
+
+
+				<section class="stocks block">
+					<div class="cont">
+						<div class="head">
+							<div class="data">
+								<div class="title">Используйте все возможности нашей программы скидок</div>
+
+								<button class="btn">Получить промокод на скидку <b>10%</b></button>
+							</div>
+
+							<div class="image">
+								<img data-src="images/tmp/stocks_head_img.jpg" alt="" class="lazyload">
+
+								<div class="loader"></div>
+							</div>
+						</div>
+
+						<div class="row">
+							<a href="/" class="stock">
+								<div class="type">Скидка</div>
+
+								<div class="val">-10%</div>
+
+								<div class="desc">за подписку на рассылку</div>
+
+								<div class="details">
+									<span>Подробнее</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</div>
+							</a>
+
+							<a href="/" class="stock">
+								<div class="type">Скидка</div>
+
+								<div class="val">-30%</div>
+
+								<div class="desc">на аксессуары  LAKESTONE</div>
+
+								<div class="details">
+									<span>Подробнее</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</div>
+							</a>
+
+							<a href="/" class="stock">
+								<div class="type">Скидка</div>
+
+								<div class="val">-30%</div>
+
+								<div class="desc">на вторую и последующую сумку LAKESTONE</div>
+
+								<div class="details">
+									<span>Подробнее</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</div>
+							</a>
+
+							<a href="/" class="stock">
+								<div class="type">в каждом заказе</div>
+
+								<div class="val">Подарок</div>
+
+								<div class="desc">паспорт или кардхолдер</div>
+
+								<div class="details">
+									<span>Подробнее</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</div>
+							</a>
+
+							<a href="/" class="stock">
+								<div class="type">Скидка</div>
+
+								<div class="val">-25%</div>
+
+								<div class="desc">с дисконтной картой</div>
+
+								<div class="details">
+									<span>Подробнее</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</div>
+							</a>
+
+							<a href="/" class="stock">
+								<div class="type">Скидка</div>
+
+								<div class="val">-30%</div>
+
+								<div class="desc">на средства по уходу за натуральной кожей</div>
+
+								<div class="details">
+									<span>Подробнее</span>
+									<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_hor"></use></svg>
+								</div>
+							</a>
+						</div>
+					</div>
+				</section>
+			</div>
+
+
+			<footer>
+				<div class="advantages">
+					<div class="cont">
+						<div class="swiper">
+							<div class="row">
+								<div>
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage1.svg" alt="" class="lazyload">
+										</div>
+
+										<div class="name">Бесплатная доставка</div>
+										<div class="desc">по всей России</div>
+									</div>
+								</div>
+
+								<div>
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage2.svg" alt="" class="lazyload">
+										</div>
+
+										<div class="name">Только натуральная кожа</div>
+										<div class="desc">Никаких заменителей!</div>
+									</div>
+								</div>
+
+								<div>
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage3.svg" alt="" class="lazyload">
+										</div>
+
+										<div class="name">Дисконтная карта</div>
+										<div class="desc">Скидка 20% на любой заказ</div>
+									</div>
+								</div>
+
+								<div>
+									<div class="item">
+										<div class="icon">
+											<img data-src="images/ic_advantage4.svg" alt="" class="lazyload">
+										</div>
+
+										<div class="name">Без предоплаты</div>
+										<div class="desc">Оплата по факту получения</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="swiper-pagination"></div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="data">
+					<div class="cont row">
+						<div class="col">
+							<div class="contacts">
+								<div class="phone">
+									<a href="tel:88002227941">8 (800) 222-79-41</a>
+								</div>
+
+								<div class="time">9:00-21:00</div>
+
+								<div class="email">
+									<a href="mailto:info@lakestone.ru">info@lakestone.ru</a>
+								</div>
+							</div>
+
+							<div class="discount">
+								<div class="title">Скидка</div>
+								<div class="val">10%</div>
+
+								<div class="subscribe">
+									<div class="label"><span>Скидка </span>за подписку на рассылку</div>
+
+									<form action="">
+										<input type="email" name="" value="" class="input" placeholder="Ваш E-mail">
+
+										<button type="submit" class="submit_btn">
+											<svg class="icon"><use xlink:href="images/sprite.svg#ic_send"></use></svg>
+										</button>
+									</form>
+
+									<div class="agree">Нажимая на кнопку “Отправить”, Вы даете согласие на обработку <a href="/">персональных данных</a></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="links">
+							<div class="title">
+								<span>Категории</span>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="items">
+								<div><a href="/">Мужские клатчи</a></div>
+								<div><a href="/">Мужские сумки</a></div>
+								<div><a href="/">Деловые сумки</a></div>
+								<div><a href="/">Женские сумки</a></div>
+								<div><a href="/">Мужские сумки через плечо</a></div>
+								<div><a href="/">Мужские портфели</a></div>
+								<div><a href="/">Рюкзаки</a></div>
+								<div><a href="/">Женские сумки через плечо</a></div>
+								<div><a href="/">Папки для документов</a></div>
+								<div><a href="/">Дорожно-спортивные сумки</a></div>
+								<div><a href="/">Женские рюкзаки</a></div>
+								<div><a href="/">Мужские рюкзаки</a></div>
+								<div><a href="/">Сумки кросс-боди</a></div>
+								<div><a href="/">Женские поясные сумки</a></div>
+							</div>
+						</div>
+
+						<div class="links">
+							<div class="title">
+								<span>Покупателям</span>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="items">
+								<div><a href="/">Доставка и оплата</a></div>
+								<div><a href="/">Обмен и возврат</a></div>
+								<div><a href="/">Гарантия и ремонт</a></div>
+								<div><a href="/">Публичная оферта</a></div>
+								<div><a href="/">Обработка персональных данных</a></div>
+								<div><a href="/">Корпоративным клиентам</a></div>
+								<div><a href="/">Часто задаваемые вопросы (FAQ)</a></div>
+							</div>
+						</div>
+
+						<div class="links">
+							<div class="title">
+								<span>Мы</span>
+								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
+							</div>
+
+							<div class="items">
+								<div><a href="/">О компании</a></div>
+								<div><a href="/">Сертификаты</a></div>
+								<div><a href="/">Блог и полезные советы</a></div>
+								<div><a href="/">Отзывы</a></div>
+								<div><a href="/">Контакты</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+
+				<div class="bottom">
+					<div class="cont">
+						<div class="location">ООО "Лэйкстоун" ОГРН 1167746827555Юр. адрес: 127015, г. Москва, ул.Новодмитровская д.5А, стр.2; этаж 6; ком.№9 (каб.605)</div>
+
+						<div class="copyright">2016 - 2023 &copy; Lakestone.ru</div>
+					</div>
+				</div>
+			</footer>
+
+
+			<div class="overlay"></div>
+		</div>
+
+
+		<section id="search_modal">
+			<div class="cont">
+				<form action="" class="form">
+					<div class="field">
+						<input type="text" name="" value="" class="input" placeholder="Что вы хотите найти?">
+
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_search"></use></svg>
+					</div>
+
+					<button type="submit" class="submit_btn">Поиск</button>
+
+					<button type="button" class="close_btn">
+						<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+					</button>
+				</form>
+
+				<div class="result">
+					<div class="empty">Ничего не найдено :(</div>
+
+					<div class="products">
+						<div class="row">
+							<div class="product">
+								<div class="thumb">
+									<button class="favorite_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite_a"></use></svg>
+									</button>
+
+									<div class="swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+										</div>
+
+										<div class="swiper-pagination"></div>
+									</div>
+								</div>
+
+								<div class="info">
+									<div class="name">
+										<a href="/">Портфель Farington Black Cayman</a>
+									</div>
+
+									<div class="price">
+										<div>21 590 ₽</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="product">
+								<div class="thumb">
+									<button class="favorite_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite_a"></use></svg>
+									</button>
+
+									<div class="swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+										</div>
+
+										<div class="swiper-pagination"></div>
+									</div>
+								</div>
+
+								<div class="info">
+									<div class="name">
+										<a href="/">Портфель Farington Black Cayman</a>
+									</div>
+
+									<div class="price">
+										<div>21 590 ₽</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="product">
+								<div class="thumb">
+									<button class="favorite_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite_a"></use></svg>
+									</button>
+
+									<div class="swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+										</div>
+
+										<div class="swiper-pagination"></div>
+									</div>
+								</div>
+
+								<div class="info">
+									<div class="name">
+										<a href="/">Портфель Farington Black Cayman</a>
+									</div>
+
+									<div class="price">
+										<div>21 590 ₽</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="product">
+								<div class="thumb">
+									<button class="favorite_btn">
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite"></use></svg>
+										<svg class="icon"><use xlink:href="images/sprite.svg#ic_favorite_a"></use></svg>
+									</button>
+
+									<div class="swiper">
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+
+											<div class="swiper-slide">
+												<a href="/" class="image">
+													<img data-src="images/tmp/product_thumb1.png" alt="" class="swiper-lazy">
+												</a>
+											</div>
+										</div>
+
+										<div class="swiper-pagination"></div>
+									</div>
+								</div>
+
+								<div class="info">
+									<div class="name">
+										<a href="/">Портфель Farington Black Cayman</a>
+									</div>
+
+									<div class="price">
+										<div>21 590 ₽</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="all_link">
+						<a href="/">Смотреть все</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="modal" id="get_discount_modal">
+			<div class="row">
+				<div class="image">
+					<img data-src="images/tmp/get_discount_modal.jpg" alt="" class="lazyload">
+				</div>
+
+				<div class="data">
+					<div class="title">Скидка</div>
+
+					<div class="percents">-10%</div>
+
+					<div class="desc">на первый заказ</div>
+
+					<div class="subscribe">
+						<div class="label">Получите промокод на почту и <b>воспользуйтесь скидкой</b></div>
+
+						<form action="" class="form">
+							<div class="line">
+								<div class="field">
+									<input type="email" name="" value="" class="input" placeholder="Ваш E-mail">
+								</div>
+							</div>
+
+							<div class="submit">
+								<button type="submit" class="submit_btn">Получить скидку <b>10%</b></button>
+							</div>
+
+							<div class="agree">Нажимая на кнопку, Вы даете согласие на обработку <a href="/" target="_blank">персональных данных</a></div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="modal" id="city_modal">
+			<div class="current">
+				Ваш город: <span>Ставрополь</span>
+			</div>
+
+			<form action="" class="form">
+				<div class="field">
+					<input type="text" class="input" placeholder="Начните вводить название...">
+				</div>
+			</form>
+
+			<div class="popular">
+				<div class="title">Популярные города:</div>
+
+				<div class="list">
+					<div><button class="btn">г. Москва</button></div>
+					<div><button class="btn">г. Санкт-Петербург</button></div>
+					<div><button class="btn">г. Сочи</button></div>
+					<div><button class="btn">г. Новороссийск</button></div>
+					<div><button class="btn">г. Иркутск</button></div>
+					<div><button class="btn">г. Воронеж</button></div>
+					<div><button class="btn">г. Красноярск</button></div>
+					<div><button class="btn">г. Нижний Новгород</button></div>
+					<div><button class="btn">г. Казань</button></div>
+					<div><button class="btn">г. Екатеринбург</button></div>
+					<div><button class="btn">г. Владивосток</button></div>
+					<div><button class="btn">г. Чебоксары</button></div>
+					<div><button class="btn">г. Ростов-на-Дону</button></div>
+					<div><button class="btn">г. Пермь</button></div>
+					<div><button class="btn">г. Уфа</button></div>
+				</div>
+			</div>
+		</section>
+
+
+		<section id="location_autodetection">
+			<button class="close_btn">
+				<svg class="icon"><use xlink:href="images/sprite.svg#ic_close"></use></svg>
+			</button>
+
+			<div>Ваш город <span>Москва?</span></div>
+
+			<button class="btn yes_btn">Да, верно</button>
+			<button class="btn no_btn modal_btn" data-modal="city_modal">Нет, другой</button>
+		</section>
+
+
+		<section class="modal" id="callback_modal">
+			<div class="row">
+				<div class="image">
+					<img src="images/tmp/callback_modal_img.jpg" alt="">
+				</div>
+
+				<div class="data">
+					<div class="title">Заказать звонок</div>
+
+					<div class="desc">Оставьте свой номер телефона и мы ответим на ваши вопросы.</div>
+
+					<form action="" class="form">
+						<div class="line">
+							<div class="field">
+								<input type="text" name="" value="" class="input" placeholder="Ваше имя">
+							</div>
+						</div>
+
+						<div class="line">
+							<div class="field">
+								<input type="tel" name="" value="" class="input" placeholder="Номер телефона">
+							</div>
+						</div>
+
+						<div class="submit">
+							<button type="submit" class="submit_btn">Отправить</button>
+						</div>
+
+						<div class="agree">Нажимая на кнопку, Вы даете согласие на обработку <a href="/" target="_blank">персональных данных</a></div>
+					</form>
+				</div>
+			</div>
+		</section>
+
+
+		<!-- Подключение javascript файлов -->
+		<script src="js/jquery-3.6.3.min.js"></script>
+		<script src="js/functions.js"></script>
+		<script src="js/swiper-bundle.min.js"></script>
+		<script src="js/fancybox.js"></script>
+		<script src="js/imask.js"></script>
+		<script src="js/ion.rangeSlider.min.js"></script>
+		<script src="js/nice-select2.js"></script>
+		<script src="js/wheelSlider.js"></script>
+		<script src="js/hc-sticky.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

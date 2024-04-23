@@ -1,0 +1,515 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    :root
+    {
+        --sidebar_width: 320px;
+    }
+
+
+    .cont
+    {
+        padding: 0 30px;
+    }
+
+
+    .content_flex .content
+    {
+        width: calc(100% - var(--sidebar_width) - 40px);
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .categories .sub_categories .row
+    {
+        padding: 0;
+    }
+
+
+
+    /*-------------
+        Sidebar
+    -------------*/
+    .filter .submit_btn
+    {
+        width: 184px;
+    }
+
+
+
+    /*----------------
+        Typography
+    ----------------*/
+    .text_block .image,
+    .text_block .images
+    {
+        width: calc(100% + 560px);
+        margin: 50px -280px;
+    }
+
+
+    .text_block blockquote br
+    {
+        display: none;
+    }
+
+
+
+    /*---------------
+        Discounts
+    ---------------*/
+    .discounts .data
+    {
+        width: 340px;
+    }
+
+
+    .discounts .col
+    {
+        width: 360px;
+    }
+
+    .discounts .col.big
+    {
+        width: 640px;
+        margin-right: -30px;
+    }
+
+
+
+    /*-----------------
+        Info blocks
+    -----------------*/
+    .info_blocks .tabs .btn
+    {
+        line-height: 52px;
+    }
+
+    .info_blocks .tabs .btn br
+    {
+        display: block;
+    }
+
+
+    .info_blocks .image
+    {
+        width: calc(100% + 60px);
+        max-width: calc(100% + 60px);
+        height: auto;
+        margin-right: -30px;
+        margin-left: -30px;
+        padding-bottom: 55.989%;
+    }
+
+
+
+    /*---------------
+        Gift info
+    ---------------*/
+    .gift_info .bg1
+    {
+        margin-left: -620px;
+    }
+
+    .gift_info .bg2
+    {
+        margin-right: -620px;
+    }
+
+
+
+    /*----------
+        Club
+    ----------*/
+    .club .logo
+    {
+        width: 528px;
+        margin-top: 20px;
+        margin-right: auto;
+    }
+
+
+    .club .data
+    {
+        width: calc(100% - 640px);
+    }
+
+
+    .club .desc br
+    {
+        display: none;
+    }
+
+
+
+    /*------------------------
+        Every new discount
+    ------------------------*/
+    .every_new_discount .text_block,
+    .every_new_discount .percents
+    {
+        width: 400px;
+    }
+
+
+    .every_new_discount .img
+    {
+        width: 480px;
+        height: 779px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .top_article
+    {
+        display: block;
+    }
+
+
+    .articles .top_article .thumb
+    {
+        width: 100%;
+        height: auto;
+        padding-bottom: 61.031%;
+    }
+
+
+    .articles .top_article .thumb + *
+    {
+        width: 100%;
+    }
+
+
+
+    .articles .row
+    {
+        margin-left: -60px;
+    }
+
+    .articles .row > *
+    {
+        width: calc(25% - 60px);
+        margin-left: 60px;
+    }
+
+
+
+    /*---------
+        FAQ
+    ---------*/
+    .FAQ .col_right
+    {
+        width: 440px;
+        margin-left: auto;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .item
+    {
+        padding: 24px;
+    }
+
+    .contacts_info .item .icon + *
+    {
+        width: calc(100% - 40px);
+    }
+
+
+
+    /*--------------------
+        Content banner
+    --------------------*/
+    .content_banner .title
+    {
+        width: 244px;
+    }
+
+
+    .content_banner .option + .option
+    {
+        margin-left: 0;
+    }
+
+
+    .content_banner .image
+    {
+        width: 320px;
+        margin-left: 40px;
+    }
+
+
+
+    /*----------------
+        About info
+    ----------------*/
+    .about_info .information2 .images .image
+    {
+        width: 260px;
+        height: 312px;
+    }
+
+
+    .about_info .information2 .images .image.big
+    {
+        width: calc(100% - 560px);
+        height: 425px;
+    }
+
+
+
+    /*------------
+        Stocks
+    ------------*/
+    .stocks .head
+    {
+        height: 650px;
+    }
+
+
+    .stocks .row
+    {
+        margin-left: -220px;
+    }
+
+    .stocks .row > *
+    {
+        width: calc(50% - 220px);
+        margin-left: 220px;
+    }
+
+
+
+    /*----------------------
+        To corp. clients
+    ----------------------*/
+    .to_corp_clients .head .image
+    {
+        height: 650px;
+    }
+
+
+    .to_corp_clients .information
+    {
+        padding: 0;
+    }
+
+
+    .to_corp_clients .pluses .item
+    {
+        padding: 40px;
+    }
+
+
+    .to_corp_clients .goals .item
+    {
+        padding: 40px;
+    }
+
+
+
+    .to_corp_clients .action
+    {
+        padding: 0;
+    }
+
+
+    .to_corp_clients .action .desc,
+    .to_corp_clients .action .contacts
+    {
+        width: 380px;
+    }
+
+
+    .to_corp_clients .action .image
+    {
+        width: 500px;
+        height: 544px;
+    }
+
+
+
+    /*----------------------
+        Delivery payment
+    ----------------------*/
+    .delivery_payment .item,
+    .delivery_payment .exp
+    {
+        padding: 24px;
+    }
+
+
+
+    /*--------------------
+        Our production
+    --------------------*/
+    .our_production .head .text_block
+    {
+        padding: 56px;
+    }
+
+
+    .our_production .bottom .image
+    {
+        width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+    }
+
+
+
+    /*------------------------
+        Vintage techniques
+    ------------------------*/
+    .vintage_techniques .why .row
+    {
+        margin-left: -100px;
+    }
+
+    .vintage_techniques .why .row > *
+    {
+        width: calc(33.333% - 100px);
+        margin-left: 100px;
+    }
+
+
+    .vintage_techniques .atmosphere .text_block
+    {
+        width: 440px;
+    }
+
+
+
+    /*---------------------
+        Genuine leather
+    ---------------------*/
+    .genuine_leather .why
+    {
+        width: calc(100% + 60px);
+        margin-right: -30px;
+        margin-left: -30px;
+        padding: 50px 30px 39px;
+    }
+
+
+    .genuine_leather .why .row > *
+    {
+        width: 320px;
+    }
+
+    .genuine_leather .why .row > *.big,
+    .genuine_leather .why .text_block
+    {
+        width: calc(100% - 680px);
+    }
+
+
+
+    /*-------------------
+        Order success
+    -------------------*/
+    .order_success .head
+    {
+        padding-top: 60px;
+    }
+
+
+    .order_success .data
+    {
+        padding: 40px;
+    }
+
+
+    .order_success .data .col
+    {
+        width: 280px;
+    }
+
+    .order_success .data .col.big
+    {
+        width: 560px;
+    }
+
+
+
+    /*---------------
+        Cart info
+    ---------------*/
+    .cart_info .col_right
+    {
+        width: 430px;
+        margin-right: 0;
+    }
+
+
+    .cart_info .cart_total
+    {
+        padding-left: 60px;
+    }
+
+
+
+    /*------------------
+        Product info
+    ------------------*/
+    .product_info .images
+    {
+        width: calc(100% - 592px);
+    }
+
+
+    .product_info .images .thumb
+    {
+        height: 480px;
+    }
+
+    .product_info .images .small .thumb
+    {
+        height: 332px;
+    }
+
+
+    .product_info .data
+    {
+        width: 552px;
+    }
+
+
+
+    /*------------------
+        Get discount
+    ------------------*/
+    .get_discount .img1
+    {
+        margin-left: -692px;
+    }
+
+    .get_discount .img2
+    {
+        margin-right: -692px;
+    }
+
+
+
+    /*-----------
+        PopUp
+    -----------*/
+    #location_autodetection
+    {
+        right: 30px;
+
+        margin-right: 0;
+    }
+}
