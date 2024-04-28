@@ -108,11 +108,10 @@
     .top_banner .cont
     {
         display: flex;
-
-        justify-content: flex-start;
-        align-items: center;
         align-content: center;
+        align-items: center;
         flex-wrap: wrap;
+        justify-content: flex-start;
     }
 
 
@@ -353,13 +352,12 @@
     .discounts .data
     {
         display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
 
         width: 100%;
-
-        justify-content: space-between;
-        align-items: center;
-        align-content: center;
-        flex-wrap: wrap;
     }
 
 
@@ -715,10 +713,10 @@
 
     .article_info .share
     {
+        justify-content: center;
+
         width: 100%;
         margin-bottom: 36px;
-
-        justify-content: center;
     }
 
 
@@ -870,7 +868,7 @@
     -------------------*/
     .products_head
     {
-        margin-bottom: 6px;
+        margin-bottom: 16px;
     }
 
 
@@ -1788,10 +1786,10 @@
 
     .cart_info .product .info
     {
-        width: calc(100% - 121px);
-        padding-bottom: 55px;
-
         align-self: flex-start;
+
+        width: calc(100% - 121px);
+        padding-bottom: 68px;
     }
 
 
@@ -1826,6 +1824,12 @@
     }
 
 
+    .cart_info .product .amount
+    {
+        margin-top: 20px;
+    }
+
+
     .cart_info .product .delete_btn
     {
         position: absolute;
@@ -1850,17 +1854,15 @@
 
     .cart_info .gifts .item .info
     {
+        align-self: flex-start;
+
         width: calc(100% - 121px);
         padding-bottom: 40px;
-
-        align-self: flex-start;
     }
 
 
     .cart_info .gifts .item .price
     {
-        color: #c97a4d;
-
         position: absolute;
         bottom: 0;
         left: 121px;
@@ -1868,6 +1870,8 @@
         width: auto;
 
         text-align: left;
+
+        color: #c97a4d;
     }
 
     .cart_info .gifts .item .price .icon
@@ -2016,11 +2020,10 @@
     {
         font-size: 24px;
 
+        align-items: flex-start;
         flex-direction: column;
 
         margin-top: 20px;
-
-        align-items: flex-start;
     }
 
     .product_info .price > *
@@ -2032,20 +2035,19 @@
     {
         font-size: 16px;
 
+        order: 1;
+
         margin-bottom: 6px;
         margin-left: 0;
-
-        order: 1;
     }
 
 
     .product_info .credit
     {
+        align-items: flex-end;
         flex-direction: column;
 
         margin-top: 20px;
-
-        align-items: flex-end;
     }
 
     .product_info .credit > *
@@ -2055,10 +2057,10 @@
 
     .product_info .credit .icon
     {
+        order: 1;
+
         margin-bottom: 2px;
         margin-left: auto;
-
-        order: 1;
     }
 
 
@@ -2151,13 +2153,12 @@
     .product_info .pluses .item
     {
         display: flex;
+        align-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: flex-start;
 
         text-align: left;
-
-        justify-content: flex-start;
-        align-items: center;
-        align-content: center;
-        flex-wrap: wrap;
     }
 
     .product_info .pluses .item .icon
@@ -2326,9 +2327,9 @@
     -----------*/
     .modal
     {
-        margin-top: auto;
-
         align-self: flex-end;
+
+        margin-top: auto;
     }
 
 
@@ -2426,11 +2427,10 @@
     #product_features_modal .features > *
     {
         display: flex;
-
-        justify-content: space-between;
-        align-items: flex-start;
         align-content: flex-start;
+        align-items: flex-start;
         flex-wrap: nowrap;
+        justify-content: space-between;
     }
 
     #product_features_modal .features > * + *
@@ -2533,9 +2533,9 @@
         right: 15px;
         bottom: 15px;
 
-        width: calc(100% - 30px);
-
         justify-content: center;
+
+        width: calc(100% - 30px);
     }
 
     #location_autodetection div
