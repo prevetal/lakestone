@@ -397,6 +397,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		$('.product_info_modal').removeClass('show')
 		$('#' + content).addClass('show')
 
+		$('body').addClass('product_info_modal_open')
 		$('.overlay').fadeIn(300)
 	})
 
@@ -404,6 +405,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		e.preventDefault()
 
 		$('.overlay').fadeOut(200)
+		$('body').removeClass('product_info_modal_open')
 		$('.product_info_modal').removeClass('show')
 	})
 
@@ -804,7 +806,9 @@ document.addEventListener('DOMContentLoaded', function () {
 		if ($(e.target).closest('.modal_cont').length === 0) {
 			$('.mini_modal, .mini_modal_btn').removeClass('active')
 
-			$('.overlay').fadeOut(200)
+			if (!$('body').hasClass('product_info_modal_open')) {
+				$('.overlay').fadeOut(200)
+			}
 
 			if (is_touch_device()) $('body').css('cursor', 'default')
 		}
