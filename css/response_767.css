@@ -24,6 +24,18 @@
 
 
 
+    /*----------------
+        Pagination
+    ----------------*/
+    .pagination
+    {
+        margin-top: 24px;
+
+        gap: 16px;
+    }
+
+
+
     /*--------------
         Fancybox
     --------------*/
@@ -31,16 +43,6 @@
     .fancybox__slide::after
     {
         display: none;
-    }
-
-
-
-    /*---------------
-        Load more
-    ---------------*/
-    .load_more
-    {
-        margin-top: 35px;
     }
 
 

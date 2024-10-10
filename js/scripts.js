@@ -186,11 +186,14 @@ document.addEventListener('DOMContentLoaded', function () {
 		let options = {
 			loop: true,
 			speed: 500,
+			threshold: 20,
+			edgeSwipeThreshold: 40,
+			longSwipes: false,
 			watchSlidesProgress: true,
 			slideActiveClass: 'active',
 			slideVisibleClass: 'visible',
 			nested: true,
-			allowTouchMove: false,
+			// allowTouchMove: false,
 			preloadImages: false,
 			lazy: {
 				enabled: true,
@@ -856,6 +859,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
 		let parent = $(this).closest('.video')
 
+		$(this).hide()
+
 		parent.find('video').fadeIn(300, () => parent.find('video').get(0).play())
 	})
 
@@ -893,10 +898,13 @@ document.addEventListener('DOMContentLoaded', function () {
 	// Checkout btn
 	checkoutBtn = $('.checkout_btn')
 	placeholder = $('.checkout_btn_place')
-	initialOffset = checkoutBtn.offset().top
 
-	checkoutBtn.addClass('fixed')
-	placeholder.show()
+	if (checkoutBtn.length) {
+		initialOffset = checkoutBtn.offset().top
+
+		checkoutBtn.addClass('fixed')
+		placeholder.show()
+	}
 
 
 	// Товар в корзину
@@ -973,7 +981,9 @@ window.addEventListener('scroll', function () {
 
 
 	// Checkout btn
-	updateButtonPosition()
+	if (typeof checkoutBtn !== 'undefined' && checkoutBtn.length) {
+		updateButtonPosition()
+	}
 })
 
 

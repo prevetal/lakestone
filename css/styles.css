@@ -211,7 +211,6 @@ button
     overflow: clip;
     flex-direction: column;
 
-    min-width: 375px;
     min-height: 100%;
 
     background: var(--bg);
@@ -384,38 +383,6 @@ button
 
 
 /*---------------
-    Load more
----------------*/
-.load_more
-{
-    margin-top: 60px;
-
-    text-align: center;
-}
-
-
-.load_more .btn
-{
-    line-height: 52.5px;
-
-    padding: 3px 45px;
-
-    transition: .2s linear;
-
-    border: 1px solid #e4e4e4;
-}
-
-
-.load_more .btn:hover
-{
-    color: #fff;
-    border-color: var(--text_color);
-    background: var(--text_color);
-}
-
-
-
-/*---------------
     Accordion
 ---------------*/
 .accordion_item
@@ -524,6 +491,8 @@ button
 
     display: block;
 
+    width: 388px;
+    max-width: 100%;
     margin: 49px auto 0;
     padding: 3px 45px;
 
@@ -622,6 +591,112 @@ button
     {
         background-position: 50% 50%,0   50% ,100% 50% ,50%  50%;
     }
+}
+
+
+
+/*----------------
+    Pagination
+----------------*/
+.pagination
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    margin-top: 35px;
+
+    color: #6c6c6c;
+
+    gap: 27px;
+}
+
+
+.pagination a,
+.pagination .sep
+{
+    position: relative;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    min-width: 21px;
+    padding-bottom: 4px;
+
+    transition: color .2s linear;
+    text-decoration: none;
+
+    color: currentColor;
+    border-bottom: 1px solid transparent;
+}
+
+
+.pagination a:after
+{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+
+    display: block;
+
+    width: 21px;
+    height: 1px;
+
+    content: '';
+    transition: opacity .2s linear;
+    transform: translateX(-50%);
+    pointer-events: none;
+
+    opacity: 0;
+    background: currentColor;
+}
+
+
+.pagination a.disabled
+{
+    pointer-events: none;
+
+    color: #989898;
+}
+
+
+.pagination a:hover,
+.pagination a.active
+{
+    color: #000;
+}
+
+.pagination a.active:after
+{
+    opacity: 1;
+}
+
+
+.pagination .prev,
+.pagination .next
+{
+    color: #000;
+}
+
+
+.pagination .prev .icon,
+.pagination .next .icon
+{
+    display: block;
+
+    width: 17px;
+    height: 8px;
+}
+
+
+.pagination .next .icon
+{
+    transform: rotate(180deg);
 }
 
 
@@ -9904,6 +9979,7 @@ aside .links a.active:before
     text-decoration: none;
 
     color: #fff;
+    background: #f7f7f7;
 }
 
 .product_info .images .row > *.small
@@ -10004,7 +10080,7 @@ aside .links a.active:before
 .product_info .images .thumb
 {
     position: relative;
-    z-index: 1;
+    z-index: 3;
 
     display: flex;
     overflow: hidden;
@@ -10014,8 +10090,6 @@ aside .links a.active:before
     justify-content: center;
 
     height: 738px;
-
-    background: #f7f7f7;
 }
 
 .product_info .images .small .thumb
@@ -10035,9 +10109,17 @@ aside .links a.active:before
     height: 73px;
     margin: auto;
 
-    opacity: .7;
+    transition: opacity .2s linear;
+
+    opacity: 0;
 
     inset: 0;
+}
+
+
+.product_info .images .thumb img.loaded + .icon
+{
+    opacity: .7;
 }
 
 
